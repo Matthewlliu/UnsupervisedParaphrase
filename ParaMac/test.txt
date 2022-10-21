@@ -1,0 +1,125 @@
+3551
+[<script src="/static/dist/js/runtime.71b2c9a8.js"></script>, <script src="/static/dist/js/1.5f612a56.chunk.js"></script>, <script src="/static/dist/js/3.ec366931.chunk.js"></script>, <script src="/static/dist/js/main.1d42ef4a.chunk.js"></script>, <script>
+      Raven.config('https://db0acfea578c4f0293ca21d2993d003f@sentry.io/10253',
+          {whitelistUrls: [/smashwords.com/], release: 'v2022.06.11.01'}).addPlugin(AngularPlugin, angular).install();
+  </script>, <script>
+    window.angularData = {};
+    window.angularData.user = {"firstName":"","lastName":"","id":-1,"fullName":"Anonymous","profPicURL":"\/static\/img\/person_reading.png"};
+    window.angularData.user.loggedIn = false;
+    window.angularData.user.SSLBaseUrl = 'https://www.smashwords.com';
+;
+  </script>, <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-886172-7']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>, <script>
+    $(document).ready(function() {
+        oldsw.mobileBrowseSlider();
+    });
+</script>, <script>
+    window.angularData.book = {"id":"713414","title":"Redemption Lake","price":{"type":"FIXED_PRICE","prices":[{"amount":"0.00","currency":"USD","amount_int":0}]},"word_count":94390,"language":{"id":"1","name":"English","iso_code":"eng"},"preorder_date":1495004400000,"publication_date":1495004400000,"series":[{"id":"28397","name":"Winston Radhauser Mysteries","number":"1"}],"rating":5,"published":true,"sampling":0,"short_description":"Tucson, Arizona\u2013Detective Winston Radhauser knows eighteen-year-old Matt Garrison is hiding something. When his best friend\u2019s mother, Crystal, is murdered, the investigation focuses on Matt\u2019s father, but Matt knows he\u2019s innocent. Devastated and bent on self-destruction, Matt heads for the lake where his cousin died\u2014the only place he believes can truly free him. Are some secrets better left buried?","long_description":"Tucson, Arizona \u2013 Eighteen-year-old Matt Garrison is harboring two terrible secrets: his involvement in the drowning death of his 12-year-old cousin, and a night of drunken sex with his best friend\u2019s mother, Crystal, whom he finds dead in a bathtub of blood. Guilt forces Matt to act on impulse and hide his involvement with Crystal.\n\nDetective Winston Radhauser knows Matt is hiding something. But as the investigation progresses, Radhauser\u2019s attention is focused on Matt\u2019s father. Matt\u2019s world closes in when his father is arrested for Crystal\u2019s murder, and Travis breaks off their friendship.\n\nDespite his father\u2019s guilty plea, Matt knows his dad is innocent and only trying to protect his son. Devastated and bent on self-destruction, Matt heads for the lake where his cousin died\u2014the only place he believes can truly free him. Are some secrets better left buried?","cover":{"id":"998344","file":"bookCovers\/47e0a55a4bef350f2f93d1a77bba260c98c07f71","mime_type":"image\/jpeg","width":1800,"height":2700},"cover_url":"bookCovers\/47e0a55a4bef350f2f93d1a77bba260c98c07f71","adult":false,"erotica":false,"taboo_erotica":false,"categories":[{"id":"1282","name":"General","parents":[{"id":"3","name":"Fiction"},{"id":"874","name":"Thriller & suspense"}]},{"id":"1124","name":"General","parents":[{"id":"3","name":"Fiction"},{"id":"879","name":"Mystery & detective"}]}],"tags":["coming of age","family drama","death of a child","family secrets","manslaughter","lies and deceit","reconciliation and forgiveness"],"isbn13":"9781370712939","box_set":false,"contributors":[{"account":{"id":"2454135","username":"SClaytonGoldner","name":{"given_name":"Susan","surname":"Clayton-Goldner"},"is_corp":false,"display_name":"Susan Clayton-Goldner"},"role":"A01"}],"publisher":{"id":"56156","username":"tirgearr","is_corp":true,"display_name":"Tirgearr Publishing"},"controller":{"id":"56156","username":"tirgearr","is_corp":true,"display_name":"Tirgearr Publishing"},"edelivery":{"kindle":true,"dropbox":true},"formats":["TXT","PDB","LRF","PDF","MOBI","EPUB"],"sample_formats":["PDB","LRF","MOBI","EPUB"],"reader_formats":[{"id":17196170,"format_uri":"856a9e8be23d517f728312c4bb9c63a9","format_type":"PDF"},{"id":17196220,"format_uri":"2f7172519311d34378fb0faeeaab8028","format_type":"MOBI"},{"id":17196172,"format_uri":"7bc7b620f63e333ebb5aae1849efc36a","format_type":"TXT"},{"id":17196173,"format_uri":"46fc9ca5279ebf35466a883daf558142","format_type":"PDB"},{"id":17196221,"format_uri":"65a140731220269bc7a5c781aa37d7a1","format_type":"EPUB"},{"id":17196222,"format_uri":"bf32d905fc99de35eed8fa45954f9d36","format_type":"LRF"}],"reader_samples":[{"id":17196220,"format_uri":"92eacc0404bd8acb6113ce39e57d98a7","format_type":"MOBI"},{"id":17196173,"format_uri":"6cb8debe09e7a5609b459b05c90350e0","format_type":"PDB"},{"id":17196221,"format_uri":"4a5b96a7be8107fb415e924ed5d91c9e","format_type":"EPUB"},{"id":17196222,"format_uri":"e202e346085faa73c8f8e75015b54610","format_type":"LRF"}]};
+
+    var eDeliveryBookWidget = angular.module('eDeliveryBookWidget',
+        ['app-templates', 'eDeliverySendWidget', 'eDeliveryServices'])
+            .run(['$window', '$rootScope', function($window, $rootScope) {
+                $rootScope.bookFormats = $window.angularData.book.formats;
+    }]);
+</script>, <script>
+                            oldsw.showLongDescription();
+                        </script>, <script>
+    oldsw.makeMoreFormatsWork('#userContentSwitcherPill', '#userContentContentPill');
+</script>, <script>
+            $(document).ready(function(){
+                $('.bxsliderSeries28397').bxSlider(
+                    {
+                        minSlides: 2,
+                        maxSlides: 12,
+                        slideWidth: 108,
+                        slideMargin: 10,
+                        pager: false
+                    }
+                );
+            });
+        </script>, <script>
+            $(document).ready(function(){
+                $('.bxsliderAuthor').bxSlider(
+                    {
+                        minSlides: 2,
+                        maxSlides: 12,
+                        slideWidth: 108,
+                        slideMargin: 10,
+                        pager: false
+                    }
+                );
+            });
+        </script>, <script>
+            $(document).ready(function(){
+                $('.bxsliderPublisher').bxSlider(
+                    {
+                        minSlides: 2,
+                        maxSlides: 12,
+                        slideWidth: 108,
+                        slideMargin: 10,
+                        pager: false
+                    }
+                );
+            });
+        </script>, <script type="text/javascript">
+    <!--
+    var m = document.getElementById("cannedReasonMenu");
+    var explanations = [];
+    explanations[2] = "This book contains advertisements for goods or services, hyperlinks to affiliate marketing pages, SEO keyword spam, partial-book samples for the purpose of promoting the purchase of the complete book separately, or other spam content. All such advertisements are prohibited by the Smashwords Terms of Service";
+explanations[3] = "";
+explanations[14] = "Smashwords is for original books. The Smashwords Terms of service require that works published here do not appear elsewhere on the Internet authored by someone else, and do not allow book content from private-label rights sources or other information sources that license the same content to other people.";
+explanations[5] = "This book is a duplicate of another book already published.";
+explanations[6] = "Each book must be complete and able to stand alone. A work of fiction must be a complete story with a beginning and end. This is a requirement of the Smashwords Terms of Service.";
+explanations[7] = "This book contains material inappropriate for minors. Smashwords allows erotica and other types of adults-only books, but they must be marked adults-only for the protection of our under-18 users and as a courtesy to our adult users who find such material offensive.  Please see the Smashwords Support FAQ and Terms of Service for more information on our policies of responsible erotica publishing.";
+explanations[8] = "This book miscategorized. Example: fictional work in a non-fiction category.";
+explanations[9] = "This book is poorly formatted. Smashwords reserves the right to unpublish poorly formatted books. We direct authors to the Smashwords Style Guide for how to achieve excellent formatting.";
+explanations[11] = "Nudity and other explicit visual content, photographic or illustrated, are prohibited by the Smashwords Terms of Service on covers, as well as within books (fine-art books of a non-erotic nature that contain nudity may be accepted on a case-by-case basis at the sole discretion of Smashwords and/or its retail partners). Visual depictions of persons involved in sex acts (photographic or illustrated) are likewise prohibited.";
+explanations[12] = "Nudity and other explicit visual content, photographic or illustrated, are prohibited by the Smashwords Terms of Service within books or on covers (fine-art books of a non-erotic nature that contain nudity may be accepted on a case-by-case basis at the sole discretion of Smashwords and/or its retail partners). Visual depictions of persons involved in sex acts (photographic or illustrated) are likewise prohibited.";
+explanations[13] = "Smashwords allows erotica books, but with restrictions: it is strictly prohibited by the Smashwords Terms of Service for a book to contain graphic images of nudity (either photographic or illustrated) or persons involved in sex acts, or to include children or underage minors engaged in sexual acts or situations, witnessing such situations, considering sexual acts, or thinking about sexual acts. Rape erotica is prohibited. Please see the Smashwords Support FAQ and Terms of Service for more information on our policies of responsible erotica publishing.";
+explanations[15] = "The cover image of this book is not a proper cover. Examples: an unlabeled image with no title or author credit, a pseudo-3D cover.";
+explanations[1] = "This book has inappropriate content, such as erotica with underage characters, promotion of illegal activities, promotes violence, or other inappropriate content prohibited by the Smashwords Terms of Service.";
+explanations[10] = "This book does not comply with the Smashwords Terms of Service.";
+explanations[4] = "";
+    m.onchange = function () {
+        var selection = this.options[this.selectedIndex]
+        if (selection.value != "") {
+            d = document.getElementById("explanation_display");
+            text = explanations[selection.value];
+            r = document.createRange();
+            r.setStartBefore(d);
+            c = r.createContextualFragment(text);
+            while (d.hasChildNodes()) {
+                d.removeChild(d.lastChild);
+            }
+            d.appendChild(c);
+        }
+    }
+    -->
+</script>, <script>
+    $(function(){
+      oldsw.AllSmashwordRules();
+      oldsw.enableInlineWriteReview(); oldsw.enableInlineReportBook(); oldsw.ReviewStarsClickable();
+    });
+  </script>, <script>
+    $(function() { last_req = "";
+      $( "#primarysearch" ).autocomplete({
+          minLength: 3,
+          delay: 100,
+          select: function(event, ui) {
+              $( "#primarysearch" ).val('"' + ui.item.value + '"');
+              $( ".header-search" ).submit(); },
+          source: function( request, response ) {
+              $.ajax({ dataType: "json", type : 'Get',
+                  url: '//api.datamuse.com/sug?k=smashwords&v=smashwords_plus_adult&s=' + encodeURIComponent(request.term),
+                  success: function(data) { response( $.map( data, function(item) { return item["word"]; })) }, });
+              last_req = request.term; }
+      }); });
+  </script>]
